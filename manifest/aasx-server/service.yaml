@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: aasx-server-svc
+spec:
+  ports:
+  - name: web-port
+    port: 80
+    targetPort: 5001
+  selector:
+    app: my-api-server
+  type: LoadBalancer

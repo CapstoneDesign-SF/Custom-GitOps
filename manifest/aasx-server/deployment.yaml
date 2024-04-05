@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: aasx-server-deploy
+  labels:
+    app: aasx-server
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: aasx-server
+  template:
+    metadata:
+      labels:
+        app: aasx-server
+    spec:
+      containers:
+      - name: aasx-server
+        image: cscd2324sf/aasx-server-blazor
+        ports:
+        - containerPort: 5001
