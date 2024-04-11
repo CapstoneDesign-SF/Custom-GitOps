@@ -6,4 +6,4 @@ resources:
 - service.yaml
 images:
 - name: cscd2324sf/aasx-server-blazor
-  newTag: 1c93c62
+  newTag: b1dd1f1
