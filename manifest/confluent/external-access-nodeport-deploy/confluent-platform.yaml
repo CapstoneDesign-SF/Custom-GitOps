@@ -51,17 +51,17 @@ spec:
     nodePort:
       host: myoperator2.127.0.0.53
       nodePortOffset: 30300
-  # build:
-  #   type: onDemand
-  #   onDemand:
-  #     plugins:
-  #       confluentHub:
-  #         - name: JDBC Connector (Source and Sink)
-  #           owner: confluentinc
-  #           version: latest
-  #         - name: MongoDB Connector (Source and Sink)
-  #           owner: confluentinc
-  #           version: latest
+  build:
+    type: onDemand
+    onDemand:
+      plugins:
+        confluentHub:
+          - name: kafka-connect-jdbc
+            owner: confluentinc
+            version: latest
+          - name: mongo-kafka
+            owner: mongodb
+            version: latest
 ---
 apiVersion: platform.confluent.io/v1beta1
 kind: KsqlDB
