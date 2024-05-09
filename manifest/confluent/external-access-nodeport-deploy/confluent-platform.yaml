@@ -60,9 +60,9 @@ spec:
           - name: kafka-connect-jdbc
             owner: confluentinc
             version: latest
-          - name: mongo-kafka
-            owner: mongodb
-            version: latest
+          # - name: mongo-kafka
+          #   owner: mongodb
+          #   version: latest
 ---
 apiVersion: platform.confluent.io/v1beta1
 kind: KsqlDB
