@@ -60,6 +60,9 @@ spec:
           - name: kafka-connect-jdbc
             owner: confluentinc
             version: latest
+          - name: kafka-connect-mqtt
+            owner: confluentinc
+            version: latest
           # - name: mongo-kafka
           #   owner: mongodb
           #   version: latest
