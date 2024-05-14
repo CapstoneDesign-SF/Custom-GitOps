@@ -1,4 +1,4 @@
 resources:
-- mosquitto-config.yaml
-- mosquitto-password.yaml
-- mosquitto.yaml
+- configmap.yaml
+- deployment.yaml
+- service.yaml
