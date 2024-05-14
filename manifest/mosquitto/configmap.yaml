@@ -19,3 +19,7 @@ data:
     # Use the `mosquitto_passwd` utility.
     # If TLS is not compiled, plaintext "username:password" lines bay be used
     # password_file /mosquitto/config/passwd
+
+    persistence false
+    log_dest stdout
+    connection_messages true
