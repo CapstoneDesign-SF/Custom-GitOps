@@ -11,8 +11,6 @@ spec:
     init: confluentinc/confluent-init-container:2.8.0
   dataVolumeCapacity: 10Gi
   logVolumeCapacity: 10Gi
-  nodeSelector:
-    kafka: enable
 ---
 apiVersion: platform.confluent.io/v1beta1
 kind: Kafka
@@ -34,8 +32,6 @@ spec:
           nodePort:
             host: myoperator2.127.0.0.53
             nodePortOffset: 30000
-  nodeSelector:
-    kafka: enable
 ---
 apiVersion: platform.confluent.io/v1beta1
 kind: Connect
@@ -56,8 +52,6 @@ spec:
     nodePort:
       host: myoperator2.127.0.0.53
       nodePortOffset: 30300
-  nodeSelector:
-    kafka: enable
   # build:
   #   type: onDemand
   #   onDemand:
@@ -90,8 +84,6 @@ spec:
     nodePort:
       host: myoperator2.127.0.0.53
       nodePortOffset: 30100
-  nodeSelector:
-    kafka: enable
 ---
 apiVersion: platform.confluent.io/v1beta1
 kind: ControlCenter
@@ -118,8 +110,6 @@ spec:
     nodePort:
       host: myoperator2.127.0.0.53
       nodePortOffset: 30200
-  nodeSelector:
-    kafka: enable
 ---
 apiVersion: platform.confluent.io/v1beta1
 kind: SchemaRegistry
@@ -136,8 +126,6 @@ spec:
     nodePort:
       host: myoperator2.127.0.0.53
       nodePortOffset: 30500
-  nodeSelector:
-    kafka: enable
 ---
 apiVersion: platform.confluent.io/v1beta1
 kind: KafkaRestProxy
@@ -157,5 +145,3 @@ spec:
     nodePort:
       host: myoperator2.127.0.0.53
       nodePortOffset: 30600
-  nodeSelector:
-    kafka: enable
