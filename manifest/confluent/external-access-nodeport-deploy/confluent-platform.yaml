@@ -62,13 +62,13 @@ spec:
         url:
         - name: kafka-connect-jdbc
           archivePath: https://github.com/CapstoneDesign-SF/KafkaDataHub/raw/main/docker/plugins/zips/kafka-connect-jdbc-10.7.4.zip
-          checksum: 04665b06b08e16141de23fd76411cbc405235c66
+          checksum: 7befb937d895f4e487821df419ea22de2fc2555fea66565b340b98fe22f2eaa82a96af3cbb46a8b884d94ba5a3dbce0a3d79718c6c21fb98191b44ed1eefd573
         - name: kafka-connect-mqtt
           archivePath: https://github.com/CapstoneDesign-SF/KafkaDataHub/raw/main/docker/plugins/zips/kafka-connect-mqtt-1.1.0.zip
-          checksum: 464665fa5b3b7ca039f3827ffe78c4ae1924b139
+          checksum: 4919b2ed766be7fde0d0f01fc681d99b4bef1bb9a3e1c966a19b1aaee239b7afe22c3f18e285ea4101db84df524abf8a21f92d0fae06b98d6727acede6f3a2bd
         - name: kafka-connect-mongodb
           archivePath: https://github.com/CapstoneDesign-SF/KafkaDataHub/raw/main/docker/plugins/zips/mongodb-kafka-connect-mongodb-1.12.0.zip
-          checksum: 5ec94caa87a57614763f82fc9dfed4ed3639fbe6
+          checksum: 752bb6dc7b499c3048bcd03a5242e8a6bd7a0205aff8b88b21fde860b920bcc97b00ca3024355b0120f78f0d4e48db6d2c27ce5baa2c14b5efcdff6b74ca945d
   #       locationType: confluentHub
   #       confluentHub:
   #         - name: kafka-connect-jdbc
