@@ -62,10 +62,10 @@ spec:
         url:
         - name: kafka-connect-jdbc
           archivePath: https://raw.githubusercontent.com/CapstoneDesign-SF/KafkaDataHub/main/docker/plugins/zips/kafka-connect-jdbc-10.7.4.zip
-          checksum: 7befb937d895f4e487821df419ea22de2fc2555fea66565b340b98fe22f2eaa82a96af3cbb46a8b884d94ba5a3dbce0a3d79718c6c21fb98191b44ed1eefd573
+          checksum: 41ed2166f45519913c11fc263c4984aed6f3731245c66acde244bf4fd3674b8eeef4473e233c1843bd55d0e984efc6746227c231f0381d8a38ba22eb27128b51
         - name: kafka-connect-mqtt
           archivePath: https://raw.githubusercontent.com/CapstoneDesign-SF/KafkaDataHub/main/docker/plugins/zips/kafka-connect-mqtt-1.1.0.zip
-          checksum: 4919b2ed766be7fde0d0f01fc681d99b4bef1bb9a3e1c966a19b1aaee239b7afe22c3f18e285ea4101db84df524abf8a21f92d0fae06b98d6727acede6f3a2bd
+          checksum: 53da4369d784af8969f9ce96f8b9a2e5c9aed654ce106dce18a5d6bf5cd58cf7c3c6b08cead0b801a8adf5a04a38ee94e08794f794acf2b64041f0dfc1c2842a
         - name: kafka-connect-mongodb
           archivePath: https://raw.githubusercontent.com/CapstoneDesign-SF/KafkaDataHub/main/docker/plugins/zips/mongodb-kafka-connect-mongodb-1.12.0.zip
           checksum: 752bb6dc7b499c3048bcd03a5242e8a6bd7a0205aff8b88b21fde860b920bcc97b00ca3024355b0120f78f0d4e48db6d2c27ce5baa2c14b5efcdff6b74ca945d
