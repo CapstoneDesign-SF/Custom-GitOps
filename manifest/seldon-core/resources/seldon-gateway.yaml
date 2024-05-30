@@ -8,7 +8,7 @@ spec:
     istio: ingressgateway # use istio default controller
   servers:
   - port:
-      number: 80
+      number: 8999 # kubeflow-gateway와 충돌 방지
       name: http
       protocol: HTTP
     hosts:
